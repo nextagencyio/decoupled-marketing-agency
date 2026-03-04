@@ -1,0 +1,161 @@
+{
+  "data": {
+    "nodeTeamMembers": {
+      "__typename": "NodeTeamMemberConnection",
+      "nodes": [
+        {
+          "__typename": "NodeTeamMember",
+          "id": "team-sarah",
+          "title": "Sarah Chen",
+          "path": "/team/sarah-chen",
+          "body": {
+            "processed": "<p>Sarah founded Velocity Marketing in 2015 with a vision to create a data-driven agency that delivers measurable results. With 15+ years of experience in brand strategy and digital marketing, she has led campaigns for Fortune 500 companies and high-growth startups alike.</p>",
+            "summary": "Sarah founded Velocity Marketing in 2015 with a vision to create a data-driven agency that delivers measurable results. With 15+ years of experience in brand strategy and digital marketing, she has le"
+          },
+          "position": "Founder & CEO",
+          "email": "sarah@velocitymarketing.com",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
+            "alt": "Sarah Chen - Founder & CEO",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeTeamMember",
+          "id": "team-marcus",
+          "title": "Marcus Williams",
+          "path": "/team/marcus-williams",
+          "body": {
+            "processed": "<p>Marcus leads our creative department, bringing over a decade of experience in art direction, branding, and visual storytelling. His work has been recognized by the Webby Awards, Communication Arts, and AIGA.</p>",
+            "summary": "Marcus leads our creative department, bringing over a decade of experience in art direction, branding, and visual storytelling. His work has been recognized by the Webby Awards, Communication Arts, an"
+          },
+          "position": "Creative Director",
+          "email": "marcus@velocitymarketing.com",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80",
+            "alt": "Marcus Williams - Creative Director",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeTeamMember",
+          "id": "team-priya",
+          "title": "Priya Patel",
+          "path": "/team/priya-patel",
+          "body": {
+            "processed": "<p>Priya oversees all digital marketing campaigns, from SEO and PPC to social media and email. Her analytical approach and deep platform expertise consistently deliver above-benchmark results for our clients.</p>",
+            "summary": "Priya oversees all digital marketing campaigns, from SEO and PPC to social media and email. Her analytical approach and deep platform expertise consistently deliver above-benchmark results for our cli"
+          },
+          "position": "Head of Digital",
+          "email": "priya@velocitymarketing.com",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+            "alt": "Priya Patel - Head of Digital",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeTeamMember",
+          "id": "team-james",
+          "title": "James O'Connor",
+          "path": "/team/james-oconnor",
+          "body": {
+            "processed": "<p>James leads our content team, crafting narratives that drive engagement and conversions. A former journalist with experience at top publications, he brings storytelling expertise to every project.</p>",
+            "summary": "James leads our content team, crafting narratives that drive engagement and conversions. A former journalist with experience at top publications, he brings storytelling expertise to every project."
+          },
+          "position": "Content Director",
+          "email": "james@velocitymarketing.com",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+            "alt": "James O'Connor - Content Director",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

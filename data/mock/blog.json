@@ -1,0 +1,138 @@
+{
+  "data": {
+    "nodeBlogPosts": {
+      "__typename": "NodeBlogPostConnection",
+      "nodes": [
+        {
+          "__typename": "NodeBlogPost",
+          "id": "blog-seo-trends",
+          "title": "SEO Trends That Will Define 2026",
+          "path": "/blog/seo-trends-2026",
+          "body": {
+            "processed": "<p>The search landscape is evolving faster than ever. AI-powered search, voice queries, and zero-click results are reshaping how brands need to approach SEO.</p><h2>Key Trends to Watch</h2><ul><li>AI Overview optimization and structured data</li><li>Voice search and conversational queries</li><li>Video SEO and visual search</li><li>E-E-A-T and topical authority</li></ul><p>Brands that adapt their SEO strategy to these trends will gain a significant competitive advantage in organic search visibility.</p>",
+            "summary": "The search landscape is evolving faster than ever. AI-powered search, voice queries, and zero-click results are reshaping how brands need to approach SEO.Key Trends to WatchAI Overview optimization an"
+          },
+          "blogCategory": [
+            {
+              "id": "seo",
+              "name": "seo"
+            }
+          ],
+          "featured": true,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=800&q=80",
+            "alt": "SEO Trends 2026",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeBlogPost",
+          "id": "blog-social-strategy",
+          "title": "Building a Social Media Strategy That Converts",
+          "path": "/blog/building-social-media-strategy",
+          "body": {
+            "processed": "<p>A great social media strategy goes beyond posting content. It requires understanding your audience, creating value-driven content, and building systems that turn followers into customers.</p><h2>Framework for Success</h2><ul><li>Define clear objectives tied to business goals</li><li>Develop audience personas for each platform</li><li>Create a content pillar strategy</li><li>Implement measurement and optimization loops</li></ul><p>The brands winning on social media in 2026 are those that prioritize authentic engagement over vanity metrics.</p>",
+            "summary": "A great social media strategy goes beyond posting content. It requires understanding your audience, creating value-driven content, and building systems that turn followers into customers.Framework for"
+          },
+          "blogCategory": [
+            {
+              "id": "social-media",
+              "name": "social-media"
+            }
+          ],
+          "featured": true,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?w=800&q=80",
+            "alt": "Social Media Strategy",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeBlogPost",
+          "id": "blog-brand-storytelling",
+          "title": "The Power of Brand Storytelling in a Noisy World",
+          "path": "/blog/power-of-brand-storytelling",
+          "body": {
+            "processed": "<p>In an age of information overload, the brands that break through are the ones telling compelling stories. Here's how to craft a brand narrative that resonates and drives loyalty.</p><h2>Elements of Great Brand Stories</h2><ul><li>Authentic origin and purpose</li><li>Customer as the hero, brand as the guide</li><li>Emotional connection through shared values</li><li>Consistency across every touchpoint</li></ul><p>Great storytelling transforms transactions into relationships and customers into advocates.</p>",
+            "summary": "In an age of information overload, the brands that break through are the ones telling compelling stories. Here's how to craft a brand narrative that resonates and drives loyalty.Elements of Great Bran"
+          },
+          "blogCategory": [
+            {
+              "id": "branding",
+              "name": "branding"
+            }
+          ],
+          "featured": false,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1456324504439-367cee3b3c32?w=800&q=80",
+            "alt": "Brand Storytelling",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1456324504439-367cee3b3c32?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1456324504439-367cee3b3c32?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1456324504439-367cee3b3c32?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

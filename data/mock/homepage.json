@@ -1,0 +1,59 @@
+{
+  "data": {
+    "nodeHomepages": {
+      "__typename": "NodeHomepageConnection",
+      "nodes": [
+        {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Welcome to Velocity Marketing",
+          "path": "/homepage",
+          "heroTitle": "Accelerate Your Brand",
+          "heroSubtitle": "Strategy. Creativity. Results.",
+          "heroDescription": {
+            "processed": "<p>We combine data-driven strategy with bold creative to build brands that move markets. From startups to Fortune 500s, we deliver campaigns that convert.</p>",
+            "summary": "We combine data-driven strategy with bold creative to build brands that move markets. From startups to Fortune 500s, we deliver campaigns that convert."
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-clients",
+              "title": "",
+              "number": "200+",
+              "label": "Clients Served"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-campaigns",
+              "title": "",
+              "number": "1,500+",
+              "label": "Campaigns Launched"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-roi",
+              "title": "",
+              "number": "340%",
+              "label": "Average ROI"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-awards",
+              "title": "",
+              "number": "45",
+              "label": "Industry Awards"
+            }
+          ],
+          "featuredWorkTitle": "Featured Work",
+          "ctaTitle": "Ready to Grow Your Brand?",
+          "ctaDescription": {
+            "processed": "<p>Let's discuss how Velocity Marketing can accelerate your business growth with a tailored marketing strategy.</p>",
+            "summary": "Let's discuss how Velocity Marketing can accelerate your business growth with a tailored marketing strategy."
+          },
+          "ctaPrimary": "Get a Quote",
+          "ctaSecondary": "View Our Work"
+        }
+      ]
+    }
+  }
+}

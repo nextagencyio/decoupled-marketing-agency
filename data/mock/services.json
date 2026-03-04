@@ -1,0 +1,177 @@
+{
+  "data": {
+    "nodeServices": {
+      "__typename": "NodeServiceConnection",
+      "nodes": [
+        {
+          "__typename": "NodeService",
+          "id": "service-branding",
+          "title": "Brand Strategy & Identity",
+          "path": "/services/brand-strategy",
+          "body": {
+            "processed": "<p>Build a brand that resonates. Our brand strategy team helps you define your unique positioning, craft compelling messaging, and create visual identities that stand out in crowded markets.</p><h2>What We Deliver</h2><ul><li>Brand audit and competitive analysis</li><li>Brand positioning and messaging frameworks</li><li>Logo design and visual identity systems</li><li>Brand guidelines and style guides</li></ul>",
+            "summary": "Build a brand that resonates. Our brand strategy team helps you define your unique positioning, craft compelling messaging, and create visual identities that stand out in crowded markets.What We Deliv"
+          },
+          "serviceArea": [
+            {
+              "id": "branding",
+              "name": "branding"
+            }
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=800&q=80",
+            "alt": "Brand Strategy & Identity",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeService",
+          "id": "service-digital",
+          "title": "Digital Marketing",
+          "path": "/services/digital-marketing",
+          "body": {
+            "processed": "<p>Drive measurable results across every digital channel. Our data-driven approach ensures your marketing budget works harder and smarter.</p><h2>Our Digital Services</h2><ul><li>Search Engine Optimization (SEO)</li><li>Pay-Per-Click Advertising (PPC)</li><li>Email Marketing Automation</li><li>Conversion Rate Optimization</li></ul>",
+            "summary": "Drive measurable results across every digital channel. Our data-driven approach ensures your marketing budget works harder and smarter.Our Digital ServicesSearch Engine Optimization (SEO)Pay-Per-Click"
+          },
+          "serviceArea": [
+            {
+              "id": "digital",
+              "name": "digital"
+            }
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
+            "alt": "Digital Marketing",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeService",
+          "id": "service-social",
+          "title": "Social Media Management",
+          "path": "/services/social-media",
+          "body": {
+            "processed": "<p>Build authentic connections with your audience. We create scroll-stopping content and manage communities that turn followers into brand advocates.</p><h2>Platform Expertise</h2><ul><li>Instagram and TikTok content creation</li><li>LinkedIn thought leadership campaigns</li><li>Community management and engagement</li><li>Influencer partnerships</li></ul>",
+            "summary": "Build authentic connections with your audience. We create scroll-stopping content and manage communities that turn followers into brand advocates.Platform ExpertiseInstagram and TikTok content creatio"
+          },
+          "serviceArea": [
+            {
+              "id": "social-media",
+              "name": "social-media"
+            }
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&q=80",
+            "alt": "Social Media Management",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeService",
+          "id": "service-content",
+          "title": "Content Marketing",
+          "path": "/services/content-marketing",
+          "body": {
+            "processed": "<p>Tell stories that sell. Our content team creates compelling narratives across formats that educate, engage, and convert your target audience.</p><h2>Content Solutions</h2><ul><li>Content strategy and editorial planning</li><li>Blog posts, whitepapers, and ebooks</li><li>Video production and podcasting</li><li>Copywriting and storytelling</li></ul>",
+            "summary": "Tell stories that sell. Our content team creates compelling narratives across formats that educate, engage, and convert your target audience.Content SolutionsContent strategy and editorial planningBlo"
+          },
+          "serviceArea": [
+            {
+              "id": "content",
+              "name": "content"
+            }
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80",
+            "alt": "Content Marketing",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

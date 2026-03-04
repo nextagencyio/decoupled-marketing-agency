@@ -1,0 +1,141 @@
+{
+  "data": {
+    "nodeCaseStudies": {
+      "__typename": "NodeCaseStudyConnection",
+      "nodes": [
+        {
+          "__typename": "NodeCaseStudy",
+          "id": "case-study-techflow",
+          "title": "TechFlow SaaS Rebrand",
+          "path": "/case-studies/techflow-rebrand",
+          "body": {
+            "processed": "<p>TechFlow, a B2B SaaS platform, came to us with declining market share and an outdated brand identity. We executed a complete rebrand and digital transformation that repositioned them as a market leader.</p><h2>The Challenge</h2><p>TechFlow's brand felt dated compared to newer competitors. Their messaging didn't clearly communicate their value proposition, and their digital presence was underperforming.</p><h2>Our Approach</h2><ul><li>Conducted extensive market research and customer interviews</li><li>Developed new brand positioning and visual identity</li><li>Redesigned website with conversion-optimized UX</li><li>Launched integrated digital campaign across all channels</li></ul>",
+            "summary": "TechFlow, a B2B SaaS platform, came to us with declining market share and an outdated brand identity. We executed a complete rebrand and digital transformation that repositioned them as a market leade"
+          },
+          "industry": [
+            {
+              "id": "technology",
+              "name": "technology"
+            }
+          ],
+          "clientName": "TechFlow Inc.",
+          "results": "185% increase in qualified leads, 42% boost in brand awareness",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&q=80",
+            "alt": "TechFlow SaaS Rebrand",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1551434678-e076c223a692?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1551434678-e076c223a692?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeCaseStudy",
+          "id": "case-study-greenleaf",
+          "title": "GreenLeaf Product Launch",
+          "path": "/case-studies/greenleaf-launch",
+          "body": {
+            "processed": "<p>GreenLeaf, an organic food brand, needed a go-to-market strategy for their new product line. We created a multi-channel campaign that drove massive awareness and trial.</p><h2>The Challenge</h2><p>Launching a premium organic product in a saturated market required differentiation and a compelling brand story.</p><h2>Our Approach</h2><ul><li>Developed hero product positioning and packaging design</li><li>Created influencer marketing program with 50+ partners</li><li>Produced video content series for social media</li><li>Executed PR campaign securing coverage in top publications</li></ul>",
+            "summary": "GreenLeaf, an organic food brand, needed a go-to-market strategy for their new product line. We created a multi-channel campaign that drove massive awareness and trial.The ChallengeLaunching a premium"
+          },
+          "industry": [
+            {
+              "id": "food-beverage",
+              "name": "food-beverage"
+            }
+          ],
+          "clientName": "GreenLeaf Organics",
+          "results": "3M social impressions in first month, 250% sales target exceeded",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1542838132-92c53300491e?w=800&q=80",
+            "alt": "GreenLeaf Product Launch",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1542838132-92c53300491e?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1542838132-92c53300491e?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1542838132-92c53300491e?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeCaseStudy",
+          "id": "case-study-summit",
+          "title": "Summit Health Digital Transformation",
+          "path": "/case-studies/summit-health-digital",
+          "body": {
+            "processed": "<p>Summit Health, a regional healthcare provider, needed to modernize their digital presence and improve patient acquisition through digital channels.</p><h2>The Challenge</h2><p>An outdated website, minimal digital advertising, and no social media presence were limiting Summit's ability to reach new patients.</p><h2>Our Approach</h2><ul><li>Complete website redesign with patient portal integration</li><li>Local SEO strategy targeting key service areas</li><li>Google Ads and social advertising campaigns</li><li>Reputation management and review generation program</li></ul>",
+            "summary": "Summit Health, a regional healthcare provider, needed to modernize their digital presence and improve patient acquisition through digital channels.The ChallengeAn outdated website, minimal digital adv"
+          },
+          "industry": [
+            {
+              "id": "healthcare",
+              "name": "healthcare"
+            }
+          ],
+          "clientName": "Summit Health Network",
+          "results": "300% increase in online appointments, 65% reduction in cost per acquisition",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80",
+            "alt": "Summit Health Digital Transformation",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

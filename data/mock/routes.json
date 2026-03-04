@@ -1,0 +1,772 @@
+{
+  "/homepage": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Welcome to Velocity Marketing",
+          "path": "/homepage",
+          "heroTitle": "Accelerate Your Brand",
+          "heroSubtitle": "Strategy. Creativity. Results.",
+          "heroDescription": {
+            "processed": "<p>We combine data-driven strategy with bold creative to build brands that move markets. From startups to Fortune 500s, we deliver campaigns that convert.</p>",
+            "summary": "We combine data-driven strategy with bold creative to build brands that move markets. From startups to Fortune 500s, we deliver campaigns that convert."
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-clients",
+              "title": "",
+              "number": "200+",
+              "label": "Clients Served"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-campaigns",
+              "title": "",
+              "number": "1,500+",
+              "label": "Campaigns Launched"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-roi",
+              "title": "",
+              "number": "340%",
+              "label": "Average ROI"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-awards",
+              "title": "",
+              "number": "45",
+              "label": "Industry Awards"
+            }
+          ],
+          "featuredWorkTitle": "Featured Work",
+          "ctaTitle": "Ready to Grow Your Brand?",
+          "ctaDescription": {
+            "processed": "<p>Let's discuss how Velocity Marketing can accelerate your business growth with a tailored marketing strategy.</p>",
+            "summary": "Let's discuss how Velocity Marketing can accelerate your business growth with a tailored marketing strategy."
+          },
+          "ctaPrimary": "Get a Quote",
+          "ctaSecondary": "View Our Work"
+        }
+      }
+    }
+  },
+  "/services/brand-strategy": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeService",
+          "id": "service-branding",
+          "title": "Brand Strategy & Identity",
+          "path": "/services/brand-strategy",
+          "body": {
+            "processed": "<p>Build a brand that resonates. Our brand strategy team helps you define your unique positioning, craft compelling messaging, and create visual identities that stand out in crowded markets.</p><h2>What We Deliver</h2><ul><li>Brand audit and competitive analysis</li><li>Brand positioning and messaging frameworks</li><li>Logo design and visual identity systems</li><li>Brand guidelines and style guides</li></ul>",
+            "summary": "Build a brand that resonates. Our brand strategy team helps you define your unique positioning, craft compelling messaging, and create visual identities that stand out in crowded markets.What We Deliv"
+          },
+          "serviceArea": [
+            {
+              "id": "branding",
+              "name": "branding"
+            }
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=800&q=80",
+            "alt": "Brand Strategy & Identity",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/services/digital-marketing": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeService",
+          "id": "service-digital",
+          "title": "Digital Marketing",
+          "path": "/services/digital-marketing",
+          "body": {
+            "processed": "<p>Drive measurable results across every digital channel. Our data-driven approach ensures your marketing budget works harder and smarter.</p><h2>Our Digital Services</h2><ul><li>Search Engine Optimization (SEO)</li><li>Pay-Per-Click Advertising (PPC)</li><li>Email Marketing Automation</li><li>Conversion Rate Optimization</li></ul>",
+            "summary": "Drive measurable results across every digital channel. Our data-driven approach ensures your marketing budget works harder and smarter.Our Digital ServicesSearch Engine Optimization (SEO)Pay-Per-Click"
+          },
+          "serviceArea": [
+            {
+              "id": "digital",
+              "name": "digital"
+            }
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
+            "alt": "Digital Marketing",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/services/social-media": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeService",
+          "id": "service-social",
+          "title": "Social Media Management",
+          "path": "/services/social-media",
+          "body": {
+            "processed": "<p>Build authentic connections with your audience. We create scroll-stopping content and manage communities that turn followers into brand advocates.</p><h2>Platform Expertise</h2><ul><li>Instagram and TikTok content creation</li><li>LinkedIn thought leadership campaigns</li><li>Community management and engagement</li><li>Influencer partnerships</li></ul>",
+            "summary": "Build authentic connections with your audience. We create scroll-stopping content and manage communities that turn followers into brand advocates.Platform ExpertiseInstagram and TikTok content creatio"
+          },
+          "serviceArea": [
+            {
+              "id": "social-media",
+              "name": "social-media"
+            }
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&q=80",
+            "alt": "Social Media Management",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/services/content-marketing": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeService",
+          "id": "service-content",
+          "title": "Content Marketing",
+          "path": "/services/content-marketing",
+          "body": {
+            "processed": "<p>Tell stories that sell. Our content team creates compelling narratives across formats that educate, engage, and convert your target audience.</p><h2>Content Solutions</h2><ul><li>Content strategy and editorial planning</li><li>Blog posts, whitepapers, and ebooks</li><li>Video production and podcasting</li><li>Copywriting and storytelling</li></ul>",
+            "summary": "Tell stories that sell. Our content team creates compelling narratives across formats that educate, engage, and convert your target audience.Content SolutionsContent strategy and editorial planningBlo"
+          },
+          "serviceArea": [
+            {
+              "id": "content",
+              "name": "content"
+            }
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80",
+            "alt": "Content Marketing",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/case-studies/techflow-rebrand": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeCaseStudy",
+          "id": "case-study-techflow",
+          "title": "TechFlow SaaS Rebrand",
+          "path": "/case-studies/techflow-rebrand",
+          "body": {
+            "processed": "<p>TechFlow, a B2B SaaS platform, came to us with declining market share and an outdated brand identity. We executed a complete rebrand and digital transformation that repositioned them as a market leader.</p><h2>The Challenge</h2><p>TechFlow's brand felt dated compared to newer competitors. Their messaging didn't clearly communicate their value proposition, and their digital presence was underperforming.</p><h2>Our Approach</h2><ul><li>Conducted extensive market research and customer interviews</li><li>Developed new brand positioning and visual identity</li><li>Redesigned website with conversion-optimized UX</li><li>Launched integrated digital campaign across all channels</li></ul>",
+            "summary": "TechFlow, a B2B SaaS platform, came to us with declining market share and an outdated brand identity. We executed a complete rebrand and digital transformation that repositioned them as a market leade"
+          },
+          "industry": [
+            {
+              "id": "technology",
+              "name": "technology"
+            }
+          ],
+          "clientName": "TechFlow Inc.",
+          "results": "185% increase in qualified leads, 42% boost in brand awareness",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&q=80",
+            "alt": "TechFlow SaaS Rebrand",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1551434678-e076c223a692?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1551434678-e076c223a692?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/case-studies/greenleaf-launch": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeCaseStudy",
+          "id": "case-study-greenleaf",
+          "title": "GreenLeaf Product Launch",
+          "path": "/case-studies/greenleaf-launch",
+          "body": {
+            "processed": "<p>GreenLeaf, an organic food brand, needed a go-to-market strategy for their new product line. We created a multi-channel campaign that drove massive awareness and trial.</p><h2>The Challenge</h2><p>Launching a premium organic product in a saturated market required differentiation and a compelling brand story.</p><h2>Our Approach</h2><ul><li>Developed hero product positioning and packaging design</li><li>Created influencer marketing program with 50+ partners</li><li>Produced video content series for social media</li><li>Executed PR campaign securing coverage in top publications</li></ul>",
+            "summary": "GreenLeaf, an organic food brand, needed a go-to-market strategy for their new product line. We created a multi-channel campaign that drove massive awareness and trial.The ChallengeLaunching a premium"
+          },
+          "industry": [
+            {
+              "id": "food-beverage",
+              "name": "food-beverage"
+            }
+          ],
+          "clientName": "GreenLeaf Organics",
+          "results": "3M social impressions in first month, 250% sales target exceeded",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1542838132-92c53300491e?w=800&q=80",
+            "alt": "GreenLeaf Product Launch",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1542838132-92c53300491e?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1542838132-92c53300491e?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1542838132-92c53300491e?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/case-studies/summit-health-digital": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeCaseStudy",
+          "id": "case-study-summit",
+          "title": "Summit Health Digital Transformation",
+          "path": "/case-studies/summit-health-digital",
+          "body": {
+            "processed": "<p>Summit Health, a regional healthcare provider, needed to modernize their digital presence and improve patient acquisition through digital channels.</p><h2>The Challenge</h2><p>An outdated website, minimal digital advertising, and no social media presence were limiting Summit's ability to reach new patients.</p><h2>Our Approach</h2><ul><li>Complete website redesign with patient portal integration</li><li>Local SEO strategy targeting key service areas</li><li>Google Ads and social advertising campaigns</li><li>Reputation management and review generation program</li></ul>",
+            "summary": "Summit Health, a regional healthcare provider, needed to modernize their digital presence and improve patient acquisition through digital channels.The ChallengeAn outdated website, minimal digital adv"
+          },
+          "industry": [
+            {
+              "id": "healthcare",
+              "name": "healthcare"
+            }
+          ],
+          "clientName": "Summit Health Network",
+          "results": "300% increase in online appointments, 65% reduction in cost per acquisition",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80",
+            "alt": "Summit Health Digital Transformation",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/team/sarah-chen": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeTeamMember",
+          "id": "team-sarah",
+          "title": "Sarah Chen",
+          "path": "/team/sarah-chen",
+          "body": {
+            "processed": "<p>Sarah founded Velocity Marketing in 2015 with a vision to create a data-driven agency that delivers measurable results. With 15+ years of experience in brand strategy and digital marketing, she has led campaigns for Fortune 500 companies and high-growth startups alike.</p>",
+            "summary": "Sarah founded Velocity Marketing in 2015 with a vision to create a data-driven agency that delivers measurable results. With 15+ years of experience in brand strategy and digital marketing, she has le"
+          },
+          "position": "Founder & CEO",
+          "email": "sarah@velocitymarketing.com",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
+            "alt": "Sarah Chen - Founder & CEO",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/team/marcus-williams": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeTeamMember",
+          "id": "team-marcus",
+          "title": "Marcus Williams",
+          "path": "/team/marcus-williams",
+          "body": {
+            "processed": "<p>Marcus leads our creative department, bringing over a decade of experience in art direction, branding, and visual storytelling. His work has been recognized by the Webby Awards, Communication Arts, and AIGA.</p>",
+            "summary": "Marcus leads our creative department, bringing over a decade of experience in art direction, branding, and visual storytelling. His work has been recognized by the Webby Awards, Communication Arts, an"
+          },
+          "position": "Creative Director",
+          "email": "marcus@velocitymarketing.com",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80",
+            "alt": "Marcus Williams - Creative Director",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/team/priya-patel": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeTeamMember",
+          "id": "team-priya",
+          "title": "Priya Patel",
+          "path": "/team/priya-patel",
+          "body": {
+            "processed": "<p>Priya oversees all digital marketing campaigns, from SEO and PPC to social media and email. Her analytical approach and deep platform expertise consistently deliver above-benchmark results for our clients.</p>",
+            "summary": "Priya oversees all digital marketing campaigns, from SEO and PPC to social media and email. Her analytical approach and deep platform expertise consistently deliver above-benchmark results for our cli"
+          },
+          "position": "Head of Digital",
+          "email": "priya@velocitymarketing.com",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+            "alt": "Priya Patel - Head of Digital",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/team/james-oconnor": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeTeamMember",
+          "id": "team-james",
+          "title": "James O'Connor",
+          "path": "/team/james-oconnor",
+          "body": {
+            "processed": "<p>James leads our content team, crafting narratives that drive engagement and conversions. A former journalist with experience at top publications, he brings storytelling expertise to every project.</p>",
+            "summary": "James leads our content team, crafting narratives that drive engagement and conversions. A former journalist with experience at top publications, he brings storytelling expertise to every project."
+          },
+          "position": "Content Director",
+          "email": "james@velocitymarketing.com",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+            "alt": "James O'Connor - Content Director",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/blog/seo-trends-2026": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeBlogPost",
+          "id": "blog-seo-trends",
+          "title": "SEO Trends That Will Define 2026",
+          "path": "/blog/seo-trends-2026",
+          "body": {
+            "processed": "<p>The search landscape is evolving faster than ever. AI-powered search, voice queries, and zero-click results are reshaping how brands need to approach SEO.</p><h2>Key Trends to Watch</h2><ul><li>AI Overview optimization and structured data</li><li>Voice search and conversational queries</li><li>Video SEO and visual search</li><li>E-E-A-T and topical authority</li></ul><p>Brands that adapt their SEO strategy to these trends will gain a significant competitive advantage in organic search visibility.</p>",
+            "summary": "The search landscape is evolving faster than ever. AI-powered search, voice queries, and zero-click results are reshaping how brands need to approach SEO.Key Trends to WatchAI Overview optimization an"
+          },
+          "blogCategory": [
+            {
+              "id": "seo",
+              "name": "seo"
+            }
+          ],
+          "featured": true,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=800&q=80",
+            "alt": "SEO Trends 2026",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/blog/building-social-media-strategy": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeBlogPost",
+          "id": "blog-social-strategy",
+          "title": "Building a Social Media Strategy That Converts",
+          "path": "/blog/building-social-media-strategy",
+          "body": {
+            "processed": "<p>A great social media strategy goes beyond posting content. It requires understanding your audience, creating value-driven content, and building systems that turn followers into customers.</p><h2>Framework for Success</h2><ul><li>Define clear objectives tied to business goals</li><li>Develop audience personas for each platform</li><li>Create a content pillar strategy</li><li>Implement measurement and optimization loops</li></ul><p>The brands winning on social media in 2026 are those that prioritize authentic engagement over vanity metrics.</p>",
+            "summary": "A great social media strategy goes beyond posting content. It requires understanding your audience, creating value-driven content, and building systems that turn followers into customers.Framework for"
+          },
+          "blogCategory": [
+            {
+              "id": "social-media",
+              "name": "social-media"
+            }
+          ],
+          "featured": true,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?w=800&q=80",
+            "alt": "Social Media Strategy",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/blog/power-of-brand-storytelling": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeBlogPost",
+          "id": "blog-brand-storytelling",
+          "title": "The Power of Brand Storytelling in a Noisy World",
+          "path": "/blog/power-of-brand-storytelling",
+          "body": {
+            "processed": "<p>In an age of information overload, the brands that break through are the ones telling compelling stories. Here's how to craft a brand narrative that resonates and drives loyalty.</p><h2>Elements of Great Brand Stories</h2><ul><li>Authentic origin and purpose</li><li>Customer as the hero, brand as the guide</li><li>Emotional connection through shared values</li><li>Consistency across every touchpoint</li></ul><p>Great storytelling transforms transactions into relationships and customers into advocates.</p>",
+            "summary": "In an age of information overload, the brands that break through are the ones telling compelling stories. Here's how to craft a brand narrative that resonates and drives loyalty.Elements of Great Bran"
+          },
+          "blogCategory": [
+            {
+              "id": "branding",
+              "name": "branding"
+            }
+          ],
+          "featured": false,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1456324504439-367cee3b3c32?w=800&q=80",
+            "alt": "Brand Storytelling",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1456324504439-367cee3b3c32?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1456324504439-367cee3b3c32?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1456324504439-367cee3b3c32?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/about": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "page-about",
+          "title": "About Velocity Marketing",
+          "path": "/about",
+          "body": {
+            "processed": "<p>Founded in 2015, Velocity Marketing has grown from a boutique creative shop to a full-service marketing agency serving clients worldwide. We believe that great marketing sits at the intersection of data and creativity.</p><h2>Our Philosophy</h2><ul><li><strong>Data-Driven</strong> - Every decision is backed by insights and analytics.</li><li><strong>Creatively Bold</strong> - We push boundaries to create work that gets noticed.</li><li><strong>Results-Focused</strong> - We measure success by the impact on your bottom line.</li><li><strong>Collaborative</strong> - We work as an extension of your team.</li></ul><h2>Our Story</h2><p>What started as a two-person operation has grown into a team of 40+ marketing professionals. We've helped over 200 brands accelerate their growth through integrated marketing strategies that deliver measurable results.</p>",
+            "summary": "Founded in 2015, Velocity Marketing has grown from a boutique creative shop to a full-service marketing agency serving clients worldwide. We believe that great marketing sits at the intersection of da"
+          }
+        }
+      }
+    }
+  },
+  "/contact": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "page-contact",
+          "title": "Contact Us",
+          "path": "/contact",
+          "body": {
+            "processed": "<h2>Let's Start a Conversation</h2><p>Whether you're looking to launch a new brand, scale your digital presence, or optimize your marketing performance, we'd love to hear from you.</p><h2>Our Office</h2><p>456 Creative Avenue, Suite 300<br/>San Francisco, CA 94105</p><h2>Business Hours</h2><p>Monday - Friday: 9:00 AM - 6:00 PM PST</p>",
+            "summary": "Let's Start a ConversationWhether you're looking to launch a new brand, scale your digital presence, or optimize your marketing performance, we'd love to hear from you.Our Office456 Creative Avenue, S"
+          }
+        }
+      }
+    }
+  }
+}
