@@ -19,28 +19,28 @@
               "__typename": "ParagraphStatItem",
               "id": "stat-clients",
               "title": "",
-              "number": "200+",
+              "number": "200+", "value": "200+",
               "label": "Clients Served"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-campaigns",
               "title": "",
-              "number": "1,500+",
+              "number": "1,500+", "value": "1,500+",
               "label": "Campaigns Launched"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-roi",
               "title": "",
-              "number": "340%",
+              "number": "340%", "value": "340%",
               "label": "Average ROI"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-awards",
               "title": "",
-              "number": "45",
+              "number": "45", "value": "45",
               "label": "Industry Awards"
             }
           ],
