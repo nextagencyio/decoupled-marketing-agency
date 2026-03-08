@@ -7,6 +7,7 @@ import Header from '../components/Header'
 import CaseStudyCard from '../components/CaseStudyCard'
 
 export const revalidate = 3600
+export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
   title: 'Case Studies | Marketing Agency',
