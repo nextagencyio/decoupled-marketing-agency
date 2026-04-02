@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 async function getBlogPosts() {
   try {
     const client = getClient()
-    const { data } = await client.raw(GET_BLOG_POSTS, { first: 50 })
+    const data = await client.raw(GET_BLOG_POSTS, { first: 50 })
     return data?.nodeBlogPosts?.nodes || []
   } catch (error) {
     console.error('Error fetching blog posts:', error)
@@ -55,7 +55,7 @@ export default async function BlogPostsPage() {
             </div>
           ) : (
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {items.map((item) => (
+              {items.map((item: any) => (
                 <BlogPostCard key={item.id} item={item} />
               ))}
             </div>
