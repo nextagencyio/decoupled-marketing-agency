@@ -2,7 +2,7 @@
 
 import Link from 'next/link'
 import { useQuery } from '@apollo/client'
-import { GET_FEATURED_CASE_STUDIES } from '@/lib/queries'
+import { GQL_FEATURED_CASE_STUDIES } from '@/lib/queries'
 import { DrupalHomepage, DrupalCaseStudy } from '@/lib/types'
 import { ArrowRight, BarChart3 } from 'lucide-react'
 import ResponsiveImage from './ResponsiveImage'
@@ -18,7 +18,7 @@ interface FeaturedCaseStudiesData {
 }
 
 export default function CaseStudiesPreview({ homepageContent }: CaseStudiesPreviewProps) {
-  const { data, loading, error } = useQuery<FeaturedCaseStudiesData>(GET_FEATURED_CASE_STUDIES)
+  const { data, loading, error } = useQuery<FeaturedCaseStudiesData>(GQL_FEATURED_CASE_STUDIES)
   const caseStudies = data?.nodeCaseStudies?.nodes || []
   const sectionTitle = homepageContent?.featuredWorkTitle || 'Featured Work'
 

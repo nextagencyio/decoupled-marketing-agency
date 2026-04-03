@@ -1,4 +1,6 @@
-// Tagged template that returns the query string
+import { gql as apolloGql } from '@apollo/client'
+
+// Tagged template that returns the query string for server-side use with decoupled-client
 const gql = (strings: TemplateStringsArray, ...values: any[]) => strings.reduce((a, s, i) => a + s + (values[i] || ''), '')
 
 // Homepage query with stats
@@ -491,6 +493,76 @@ export const GET_FEATURED_CASE_STUDIES = gql`
 
 // Featured blog posts for homepage
 export const GET_FEATURED_BLOG_POSTS = gql`
+  query GetFeaturedBlogPosts {
+    nodeBlogPosts(first: 3, sortKey: CREATED_AT) {
+      nodes {
+        id
+        title
+        path
+        created {
+          timestamp
+        }
+        ... on NodeBlogPost {
+          body {
+            summary
+          }
+          blogCategory {
+            ... on TermInterface {
+              id
+              name
+            }
+          }
+          image {
+            url
+            alt
+            variations(styles: [MEDIUM]) {
+              name
+              url
+              width
+              height
+            }
+          }
+          featured
+        }
+      }
+    }
+  }
+`
+
+// Apollo DocumentNode versions for client-side useQuery
+export const GQL_FEATURED_CASE_STUDIES = apolloGql`
+  query GetFeaturedCaseStudies {
+    nodeCaseStudies(first: 3, sortKey: CREATED_AT) {
+      nodes {
+        id
+        title
+        path
+        ... on NodeCaseStudy {
+          clientName
+          results
+          industry {
+            ... on TermInterface {
+              id
+              name
+            }
+          }
+          image {
+            url
+            alt
+            variations(styles: [MEDIUM]) {
+              name
+              url
+              width
+              height
+            }
+          }
+        }
+      }
+    }
+  }
+`
+
+export const GQL_FEATURED_BLOG_POSTS = apolloGql`
   query GetFeaturedBlogPosts {
     nodeBlogPosts(first: 3, sortKey: CREATED_AT) {
       nodes {

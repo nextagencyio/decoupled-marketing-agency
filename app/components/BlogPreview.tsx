@@ -2,7 +2,7 @@
 
 import Link from 'next/link'
 import { useQuery } from '@apollo/client'
-import { GET_FEATURED_BLOG_POSTS } from '@/lib/queries'
+import { GQL_FEATURED_BLOG_POSTS } from '@/lib/queries'
 import { DrupalBlogPost } from '@/lib/types'
 import { Calendar, ArrowRight, Newspaper } from 'lucide-react'
 import ResponsiveImage from './ResponsiveImage'
@@ -18,7 +18,7 @@ function formatDate(timestamp: number): string {
 }
 
 export default function BlogPreview() {
-  const { data, loading, error } = useQuery<FeaturedBlogData>(GET_FEATURED_BLOG_POSTS)
+  const { data, loading, error } = useQuery<FeaturedBlogData>(GQL_FEATURED_BLOG_POSTS)
   const posts = data?.nodeBlogPosts?.nodes || []
 
   if (loading) {

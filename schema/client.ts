@@ -24,7 +24,7 @@ export interface TypedClient {
   raw<T = any>(query: string, variables?: Record<string, any>): Promise<T>
 }
 
-// Stub factory — uses raw queryByPath with a basic route query
+// Stub factory — uses raw queryByPath with a broad route query
 export function createTypedClient(client: DecoupledClient): TypedClient {
   return {
     async getEntries() { return [] },
@@ -34,7 +34,14 @@ export function createTypedClient(client: DecoupledClient): TypedClient {
         query ($path: String!) {
           route(path: $path) {
             ... on RouteInternal {
-              entity { ... on NodePage { __typename id title path body { processed } } }
+              entity {
+                ... on NodePage { __typename id title path body { processed } }
+                ... on NodeHomepage { __typename id title path heroTitle heroSubtitle heroDescription { processed } statsItems { ... on ParagraphStatItem { id number label } } featuredWorkTitle ctaTitle ctaDescription { processed } ctaPrimary ctaSecondary }
+                ... on NodeService { __typename id title path body { processed summary } serviceArea { ... on TermInterface { id name } } image { url alt width height } }
+                ... on NodeCaseStudy { __typename id title path body { processed summary } industry { ... on TermInterface { id name } } clientName results image { url alt width height } }
+                ... on NodeTeamMember { __typename id title path body { processed } position email photo { url alt width height } }
+                ... on NodeBlogPost { __typename id title path created { timestamp } body { processed summary } blogCategory { ... on TermInterface { id name } } featured image { url alt width height } }
+              }
             }
           }
         }
